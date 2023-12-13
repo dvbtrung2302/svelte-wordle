@@ -12,7 +12,6 @@
   class:incorrect={status === "incorrect"}
   class:close={status === "close"}
   class:invalid={status === "invalid"}
-  class:over={status === "over"}
 >
   <div class="front">{letter}</div>
   <div class="back">{letter}</div>

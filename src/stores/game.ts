@@ -9,12 +9,14 @@ export const gameInfo = writable({
   attempt: 0,
 });
 
-export const GAME_WORD = writable("spent");
+export const GAME_WORD = writable("hello");
 
 export const guess = writable("");
 
 export const statuses = writable<LetterStatus[][]>(
   createGrid() as LetterStatus[][]
 );
+
+export const keyStatus = writable<Record<string, LetterStatus>>({});
 
 export const gameOver = writable(false);
