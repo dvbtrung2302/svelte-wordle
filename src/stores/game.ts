@@ -9,7 +9,7 @@ export const gameInfo = writable({
   attempt: 0,
 });
 
-export const GAME_WORD = writable("focus");
+export const GAME_WORD = writable("speed");
 
 export const guess = writable("");
 
