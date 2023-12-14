@@ -9,7 +9,7 @@ export const gameInfo = writable({
   attempt: 0,
 });
 
-export const GAME_WORD = writable("speed");
+export const GAME_WORD = writable("shelf");
 
 export const guess = writable("");
 
